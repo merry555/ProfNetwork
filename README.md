@@ -3,3 +3,10 @@ ProfNetwork repository is to supplement the paper "Trend Analysis of collaborati
 
 ## Overview of our Dataset
 Our repository consists of six datasets: Publication1,2,3 and Information1,2,3. These dataset were collected from SciVal collaboration repositoty. Publication1,2,3 dataset include authors' publications information. Information1,2,3 dataset include authors' overall research performances.
+
+## Calculate centrality
+
+```
+# edit {publication_information} and {centrality_results} parts in source code.
+python hciprof_centrality.py
+```
